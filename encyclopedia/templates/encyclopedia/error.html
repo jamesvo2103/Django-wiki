@@ -1,0 +1,10 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Error: {{ title }}
+{% endblock %}
+
+{% block body %}
+    <h1>Entry Not Found</h1>
+    <p>Sorry, the entry "{{ title }}" does not exist.</p>
+{% endblock %}
